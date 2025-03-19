@@ -19,7 +19,7 @@ export default {
         <Navbar />
 
         <main class="p-4">
-            <h1 class="text-2xl font-bold">Home Vue</h1>
+            <h1 class="text-2xl font-bold">Users Vue</h1>
             <Link href="/login" class="text-blue-500 hover:underline">Click</Link>
         </main>
     </div>

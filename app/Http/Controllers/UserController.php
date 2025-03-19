@@ -9,7 +9,7 @@ class UserController extends Controller
     public function index()
     {
         sleep(1);
-        return inertia('Users');
+        return inertia('Home');
     }
 
     public function login()

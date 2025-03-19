@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue'
-
+import { Link, Head } from '@inertiajs/vue3'
 const isOpen = ref(false)
 
 const toggleMenu = () => {
@@ -19,9 +19,9 @@ const toggleMenu = () => {
 
         <!-- Desktop Menu -->
         <div class="hidden md:flex space-x-6">
-          <a href="/" class="hover:text-gray-300">Home</a>
-          <a href="/about" class="hover:text-gray-300">About</a>
-          <a href="/contact" class="hover:text-gray-300">Contact</a>
+          <Link href="/" class="hover:text-gray-300">Home</Link>
+          <Link href="/about" class="hover:text-gray-300">About</Link>
+          <Link href="/contact" class="hover:text-gray-300">Contact</Link>
         </div>
 
         <!-- Mobile Menu Button -->
@@ -42,9 +42,9 @@ const toggleMenu = () => {
 
     <!-- Mobile Menu -->
     <div v-if="isOpen" class="md:hidden bg-gray-700">
-      <a href="/" class="block px-4 py-2 text-white hover:bg-gray-600">Home</a>
-      <a href="/about" class="block px-4 py-2 text-white hover:bg-gray-600">About</a>
-      <a href="/contact" class="block px-4 py-2 text-white hover:bg-gray-600">Contact</a>
+      <Link href="/" class="block px-4 py-2 text-white hover:bg-gray-600">Home</Link>
+      <Link href="/about" class="block px-4 py-2 text-white hover:bg-gray-600">About</Link>
+      <Link href="/contact" class="block px-4 py-2 text-white hover:bg-gray-600">Contact</Link>
     </div>
   </nav>
 </template>

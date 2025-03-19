@@ -12,13 +12,14 @@ export default {
 </script>
 
 <template>
-    <Head title="Users Page" />
+    <Head title="Contact Page" />
 
     <div class="min-h-screen bg-gray-100">
         <!-- Navbar -->
         <Navbar />
+
         <main class="p-4">
-            <h1 class="text-2xl font-bold">Home Vue</h1>
+            <h1 class="text-2xl font-bold">Contact Vue</h1>
         </main>
     </div>
 </template>
