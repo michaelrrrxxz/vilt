@@ -12,6 +12,6 @@ export default {
     <div>
         <Head title="Login Page" />
         <h1>Login Page</h1>
-        <Link href="/home">Go to Home</Link>
+        <Link href="/users">Go to Home</Link>
     </div>
 </template>

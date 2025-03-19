@@ -1,15 +1,16 @@
 <?php
 
+use App\Models\User;
 use Inertia\Inertia;
 use Illuminate\Support\Facades\Route;
-
-Route::get('/home', function () {
-    sleep(1);
-    return Inertia::render('Home');
-});
+use App\Http\Controllers\UserController;
 
 Route::get('/login', function () {
-    sleep(1);
+    sleep(10);
     return Inertia::render('Login');
+});
+Route::controller(UserController::class)->group(function () {
+    Route::get('/users', 'index');
+
 });
 
