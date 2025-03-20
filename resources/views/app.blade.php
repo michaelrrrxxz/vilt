@@ -7,7 +7,7 @@
 
     <!-- Tailwind CDN -->
     <link  rel="stylesheet"href="{{asset('js/tailwind.min.css')}}"></link>
-
+    @routes
     @vite('resources/js/app.js')
     @inertiaHead
 </head>

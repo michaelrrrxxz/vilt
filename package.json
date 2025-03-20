@@ -16,8 +16,11 @@
         "vite": "^6.0.11"
     },
     "dependencies": {
+        "@headlessui/vue": "^1.7.23",
+        "@heroicons/vue": "^2.2.0",
         "@inertiajs/vue3": "^2.0.5",
         "@vitejs/plugin-vue": "^5.2.3",
+        "ziggy": "^2.4.0",
         "ziggy-js": "^2.5.2"
     }
 }
