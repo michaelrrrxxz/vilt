@@ -1,4 +1,5 @@
 <script setup>
+import { onMounted } from 'vue';
 import Checkbox from '@/Components/Checkbox.vue';
 import GuestLayout from '@/Layouts/GuestLayout.vue';
 import InputError from '@/Components/InputError.vue';
@@ -27,6 +28,14 @@ const submit = () => {
         onFinish: () => form.reset('password'),
     });
 };
+
+
+onMounted(() => {
+    window.history.pushState(null, "", window.location.href);
+    window.onpopstate = () => {
+        window.history.pushState(null, "", window.location.href);
+    };
+});
 </script>
 
 <template>

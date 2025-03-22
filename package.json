@@ -20,6 +20,7 @@
         "@heroicons/vue": "^2.2.0",
         "@inertiajs/vue3": "^2.0.5",
         "@vitejs/plugin-vue": "^5.2.3",
+        "flowbite": "^3.1.2",
         "ziggy": "^2.4.0",
         "ziggy-js": "^2.5.2"
     }
