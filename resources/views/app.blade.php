@@ -7,6 +7,7 @@
 
     <!-- Tailwind CDN -->
     <link  rel="stylesheet"href="{{asset('js/tailwind.min.css')}}"></link>
+    <link rel="icon" type="image/x-icon" href="{{ asset('images/logo.png') }}" />
     @routes
     @vite('resources/js/app.js')
     @inertiaHead
